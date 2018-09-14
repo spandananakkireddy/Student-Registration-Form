@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">InClass03</string>
+    <string name="etname" />
+    <string name="etemail" />
+    <string name="tvdepartment">Department</string>
+    <string name="rbsis">SIS</string>
+    <string name="rbcs">CS</string>
+    <string name="rbbio">BIO</string>
+    <string name="rbothers">Others</string>
+    <string name="tvmood">Your current mood:</string>
+    <string name="btnsubmit">Submit</string>
+
+    <string name="tvinfo">Student Information</string>
+    <string name="tv1name">Name</string>
+    <string name="tv2email">Email</string>
+    <string name="tv1department">Department</string>
+    <string name="tv1mood">Mood</string>
+    <string name="tvname" />
+    <string name="tvemail" />
+    <string name="tvdept" />
+    <string name="tvseekmood" />
+    <string name="tveditinfo">Edit Information</string>
+    <string name="btnsave">Save</string>
+
+
+</resources>

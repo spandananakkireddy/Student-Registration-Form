@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manup.inclass03.DisplayActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tvinfo"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="84dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/tv1name"
+        android:textColor="@android:color/black"
+
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/tvname"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.298"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv2email"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/tvemail"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/tvname" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/tv1department"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/tvdepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/tvdept"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/tvemail" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/tv1mood"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvmood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/tvseekmood"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/tvdepartment"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/ivname"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="2.0"
+        app:layout_constraintStart_toEndOf="@+id/tvname"
+        app:layout_constraintVertical_bias="0.079"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_action_edit" />
+
+    <ImageView
+        android:id="@+id/ivemail"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toEndOf="@+id/tvemail"
+        app:layout_constraintTop_toBottomOf="@+id/ivname"
+        app:layout_constraintVertical_bias="0.079"
+        app:srcCompat="@drawable/ic_action_edit" />
+
+    <ImageView
+        android:id="@+id/ivdepartment"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toEndOf="@+id/tvdepartment"
+        app:layout_constraintTop_toBottomOf="@+id/ivemail"
+        app:layout_constraintVertical_bias="0.059"
+        app:srcCompat="@drawable/ic_action_edit" />
+
+    <ImageView
+        android:id="@+id/ivmood"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toEndOf="@+id/tvmood"
+        app:layout_constraintTop_toBottomOf="@+id/ivdepartment"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/ic_action_edit" />
+
+
+</android.support.constraint.ConstraintLayout>
